@@ -1,0 +1,24 @@
+# Created with WinGet Releaser v2 using Komac v1.9.1
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.4.0.schema.json
+
+PackageIdentifier: ElijahLopez.MusicCaster
+PackageVersion: 5.13.36
+Platform:
+- Windows.Desktop
+InstallerType: inno
+Scope: user
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+UpgradeBehavior: install
+Protocols:
+- http
+- https
+ReleaseDate: 2023-07-27
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/elibroftw/music-caster/releases/download/v5.13.36/Music.Caster.Setup.exe
+  InstallerSha256: 4511C927F3CDA82E391952DFC46C3B855AAFB5F4CDA082973647A78D9462E699
+ManifestType: installer
+ManifestVersion: 1.4.0
